@@ -24,10 +24,6 @@ function setup()
   monkey.scale=0.2;
   inground=createSprite(300,567,1200,20);
   inground.velocityX=0;
-  if(monkey.isTouching(FoodGroup))
-    {
-      destroyEach.FoodGroup();
-    }
   FoodGroup=new Group()
   obstacleGroup=new Group()
 
